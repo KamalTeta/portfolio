@@ -40,6 +40,9 @@ useSeoMeta({
         :alt="global.picture?.alt!"
       />
     </UPageHero>
+    <h1 class="tracking-tight font-bold text-highlighted mx-auto max-w-xl text-pretty text-3xl sm:text-4xl lg:text-5xl !mx-0 text-left">
+      {{ page.cooltext }}
+    </h1>
     <UPageSection
       :ui="{
         container: '!pt-0'
